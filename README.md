@@ -1,35 +1,33 @@
-# homelab-infrastructure
+# Homelab Infrastructure Project
 
-Infrastructure Lab Environment - Proxmox cluster with Docker, game servers, media servers, and AI workloads
+This repository documents my personal homelab environment, including virtualization, networking, storage, automation, monitoring, and self-hosted services. I built this lab to strengthen hands-on skills in systems administration, networking, security, infrastructure, and troubleshooting.
 
-# Infrastructure Lab Environment
+## Goals
+- Build a stable multi-service home infrastructure
+- Practice production-style documentation and change management
+- Improve skills in Linux, virtualization, networking, backups, and automation
+- Simulate real-world IT/cloud/platform operations
 
-A comprehensive homelab setup showcasing infrastructure knowledge and practical cloud/virtualization skills.
+## Core Technologies
+- Proxmox VE for virtualization
+- Docker and containers for service hosting
+- Linux server administration
+- Reverse proxy and internal service routing
+- Backup and recovery workflows
+- Network segmentation and firewall rules
+- Monitoring and alerting
 
-## Hardware
+## What This Repo Contains
+- Architecture diagrams
+- Setup documentation
+- Configuration examples
+- Infrastructure decisions
+- Lessons learned and troubleshooting notes
+- Automation scripts
 
-- 4 physical servers
-- GPU compute node for AI workloads
-- High-speed storage infrastructure
-
-## Virtualization
-
-- **Hypervisor**: Proxmox cluster
-- Full HA (High Availability) setup
-
-## Services
-
-- **Containerization**: Docker containers
-- **Gaming**: Game servers
-- **Media**: Media servers
-- **AI/ML**: AI compute workloads
-
-## Networking
-
-- Firewall configuration
-- VLAN segmentation
-- Internal DNS setup
-
-## Documentation
-
-[Add sections about setup, installation, configuration, and lessons learned]
+## Highlights
+- Multi-VM and container environment
+- Segmented network design
+- Backup and recovery documentation
+- Infrastructure decision records
+- Real commit history showing iterative improvements
