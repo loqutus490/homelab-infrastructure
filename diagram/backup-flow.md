@@ -24,14 +24,14 @@ This document describes the backup strategy and flow for the homelab infrastruct
 ## Backup Destinations
 
 ### Primary Storage
-- Location: NAS or external storage device
-- Capacity: Specify available storage
-- Connection: Network or direct attached
+- Location: NAS storage device
+- Capacity: 3 TB available storage
+- Connection: Network attached
 
 ### Secondary Storage
 - Location: Off-site backup location
-- Capacity: Specify available storage
-- Frequency: Weekly or monthly transfers
+- Capacity: 4 TB available storage
+- Frequency: Monthly transfers
 
 ## Retention Policy
 
@@ -43,9 +43,9 @@ This document describes the backup strategy and flow for the homelab infrastruct
 
 ## Recovery Procedures
 
-- **Point-in-Time Recovery**: Steps to restore data from a specific backup
-- **Full System Recovery**: Steps to restore entire infrastructure
-- **Selective Recovery**: Steps to restore specific files or VMs
+- **Point-in-Time Recovery**: Steps to restore data from a specific backup TBA
+- **Full System Recovery**: Steps to restore entire infrastructure TBA
+- **Selective Recovery**: Steps to restore specific files or VMs TBA
 
 ## Testing and Validation
 
